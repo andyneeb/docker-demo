@@ -1,0 +1,21 @@
+clear
+
+echo "********************************************"
+echo "Building image from local Dockerfile"
+echo "********************************************"
+echo 
+
+sudo docker build --rm -t myapp .
+
+echo
+echo "output of 'docker images:'"
+sudo docker images | awk '/myapp/ {print $1 "     " $2 "     " $3}'
+
+echo
+echo "********************************************"
+echo "     Image built successfully"
+echo "********************************************"
+echo
+echo "Use ./run to start Container"
+echo
+

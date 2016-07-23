@@ -1,0 +1,11 @@
+"Simple Docker Demo"
+
+"1.) Build new Image by adding a .WAR to an existing JBoss EAP image"
+./build
+
+"2.) Run Container and bind to 18080 on localhost"
+./run
+
+"3.) Clean Up (stop Container & delete Image"
+./cleanup
+ 

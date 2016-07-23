@@ -1,0 +1,10 @@
+sudo docker run -d -p 18080:8080 -P monster
+
+echo
+echo
+echo "****************************************************************"
+echo "Ticket Monster running on http://localhost:18080/ticket-monster/"
+echo "****************************************************************"
+echo
+echo "Run ./cleanup to stop Container & remove Image"
+echo 
