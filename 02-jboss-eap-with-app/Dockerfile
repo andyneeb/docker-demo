@@ -1,4 +1,4 @@
-### Set the base image to the one built before
+### Set the base image
 FROM eap64
 
 ### File Author / Maintainer
